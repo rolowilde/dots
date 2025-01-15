@@ -1,10 +1,5 @@
-# Dotfile management
 alias dots="git --git-dir=$HOME/.dots/ --work-tree=$HOME"
-
-# Allow aliases in sudo
 alias sudo="sudo "
-
-# Improved UX
 alias ls="ls --color=auto -lAh"
 alias lsd="lsd -lah"
 alias grep="grep --color=auto --exclude-dir={.git,.svn}"

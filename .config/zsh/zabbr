@@ -1,9 +1,5 @@
-abbr nv=nvim
-abbr v=nvim
-abbr y=yay
+abbr vi=nvim
+abbr ll=lsd
 abbr md=mkdir
 abbr rd=rmdir
-abbr l=lsd
-abbr g=git
-
-abbr se="sudo -E nvim"
+abbr se=sudoedit
