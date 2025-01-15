@@ -39,7 +39,7 @@ export LIBVIRT_DEFAULT_URI=qemu:///system
 # Program defaults
 export EDITOR=nvim
 export SUDOEDITOR=nvim
-export PAGER=most
+export PAGER=less
 
 # User path envvar
 typeset -U path PATH
