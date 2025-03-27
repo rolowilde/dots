@@ -1,1 +1,0 @@
-return { "xiyaowong/virtcolumn.nvim" }
