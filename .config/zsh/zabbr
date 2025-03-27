@@ -1,6 +1,6 @@
 abbr v=nvim
 abbr vi=nvim
-abbr l=lsd
+abbr e=eza
 abbr y=yay
 abbr md=mkdir
 abbr rd=rmdir
