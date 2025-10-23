@@ -1,15 +1,7 @@
 abbr v=nvim
 abbr vi=nvim
 abbr e=eza
-abbr y=yay
 abbr md=mkdir
 abbr rd=rmdir
 abbr se=sudoedit
 abbr g=git
-abbr ga="git add"
-abbr gc="git commit -m"
-abbr gp="git push"
-abbr d=dots
-abbr da="dots add"
-abbr dc="dots commit -m"
-abbr dp="dots push"

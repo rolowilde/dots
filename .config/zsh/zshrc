@@ -1,16 +1,8 @@
-ANTIDOTE_GIT_HOME="${XDG_DATA_HOME}"/antidote
 [ ! -d "${ANTIDOTE_GIT_HOME}" ] && git clone --depth=1 https://github.com/mattmc3/antidote.git "${ANTIDOTE_GIT_HOME}"
 source "${ANTIDOTE_GIT_HOME}"/antidote.zsh
 
 ABBR_USER_ABBREVIATIONS_FILE="${ZDOTDIR}"/zabbr
 
+zstyle ':zephyr:plugin:history' 'histfile' ~/.local/state/zsh/history
+
 antidote load "${ZDOTDIR}"/zplugins
-
-autoload -Uz colors; colors
-
-autoload -Uz compstyleinit; compstyleinit; compstyle prezto
-setopt globdots
-unsetopt case_glob
-
-bindkey '^H' backward-kill-word
-bindkey '^[[3;5~' kill-word

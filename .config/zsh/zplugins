@@ -1,19 +1,21 @@
 sindresorhus/pure
 
-$ZDOTDIR/zalias
-mattmc3/zfunctions
-belak/zsh-utils path:history
-belak/zsh-utils path:utility
-belak/zsh-utils path:editor
-
-peterhurford/up.zsh
-
 zsh-users/zsh-completions path:src kind:fpath
-belak/zsh-utils path:completion
+mattmc3/zephyr path:plugins/color
+mattmc3/zephyr path:plugins/completion
+mattmc3/zephyr path:plugins/compstyle
+mattmc3/zephyr path:plugins/confd
+mattmc3/zephyr path:plugins/directory
+mattmc3/zephyr path:plugins/editor
+mattmc3/zephyr path:plugins/environment
+mattmc3/zephyr path:plugins/history
+mattmc3/zephyr path:plugins/homebrew
+mattmc3/zephyr path:plugins/macos
+mattmc3/zephyr path:plugins/utility
+mattmc3/zephyr path:plugins/zfunctions
 
-zdharma-continuum/fast-syntax-highlighting
-olets/zsh-abbr
-$ZDOTDIR/zcompat
+zdharma-continuum/fast-syntax-highlighting kind:defer
+olets/zsh-abbr kind:defer
+5A6F65/fast-abbr-highlighting kind:defer
 
-zsh-users/zsh-autosuggestions
-zsh-users/zsh-history-substring-search
+zsh-users/zsh-autosuggestions kind:defer
