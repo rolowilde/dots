@@ -5,3 +5,4 @@ abbr md=mkdir
 abbr rd=rmdir
 abbr se=sudoedit
 abbr g=git
+abbr d=dots

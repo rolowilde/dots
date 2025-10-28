@@ -4,5 +4,6 @@ source "${ANTIDOTE_GIT_HOME}"/antidote.zsh
 ABBR_USER_ABBREVIATIONS_FILE="${ZDOTDIR}"/zabbr
 
 zstyle ':zephyr:plugin:history' 'histfile' ~/.local/state/zsh/history
+zstyle ':zephyr:plugin:editor' magic-enter 'no'
 
 antidote load "${ZDOTDIR}"/zplugins
