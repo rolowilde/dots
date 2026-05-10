@@ -1,0 +1,8 @@
+font-size = 12
+font-family = Cascadia Code
+
+app-notifications = false
+
+theme = light:TokyoNight Day,dark:TokyoNight
+window-theme = ghostty
+gtk-titlebar-hide-when-maximized = true
